@@ -30,6 +30,7 @@ public class BreadcrumbTest extends BaseTest {
         getWait2().until(ExpectedConditions.visibilityOf(manageJenkinsHeader));
 
         Assert.assertEquals(manageJenkinsHeader.getText(), "Manage Jenkins");
+
     }
 
     @DataProvider(name = "subsections")
